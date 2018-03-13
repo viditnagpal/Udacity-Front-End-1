@@ -1,0 +1,49 @@
+/* add your CSS here */
+
+#image {
+	width:300px;
+	height:200px;
+	border-radius:10px;
+}
+
+.fact {
+	width:300px;	
+	text-align: justify;
+	font-style:italic;
+}
+
+.desc {
+	width: 300px;	
+	text-align: justify;
+}
+
+.list {
+	list-style: none;
+	text-align: justify;
+}
+
+#outer {
+	border: 2px gray solid;
+	width: 310px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 8px 2px gray;
+}
+#inner {
+	border: 2px gray dashed;
+	width: 310px;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+
+#head {
+	font-family: Arieal;
+	text-transform: uppercase;
+	color: red;
+}
+
+.list_bold {
+	font-weight: bold;
+	color: red;
+}
