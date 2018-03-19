@@ -1,0 +1,114 @@
+
+.my_logo {
+	width: 150px;
+	height: 150px;
+}
+
+body{
+	background-color: lightblue;
+}
+
+.big {
+	width: 950px;
+	height: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	align-content: center;
+	margin:auto;
+
+}
+
+.work{
+	color: red;
+}
+
+.line{
+	border: 5px gray solid;
+}
+.center {
+	margin: auto;
+}
+
+.pic {
+	width: 230px;
+	height: 170px;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+.box {
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+
+
+.name {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.desig {
+	text-align: right;
+	margin-right: 10px;
+	color: red;
+}
+
+.footer{
+	margin-top: 600px;
+}
+
+@media screen and (max-width: 576px){
+
+	.big {
+		width: 100%;
+	}
+
+	.pic{
+		width: 80%;
+		height: 65%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 360px){
+
+	.big {
+		width: 100%;
+	}
+
+	.pic{
+		width: 80%;
+		height: 65%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	p {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 290px){
+
+	.big {
+		width: 100%;
+	}
+
+	.pic{
+		width: 80%;
+		height: 65%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.text {
+		display: none;
+	}
+}
